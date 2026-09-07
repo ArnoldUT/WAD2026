@@ -75,6 +75,38 @@
             </tfoot>
         </table>
     </section>
+    <section>
+        <h1>Form for adding new courses</h1>
+
+        <form>
+            <div>
+                <label for="course-title">Course Title:</label>
+                <br>
+                <input type="text" id="course-title" name="course-title">
+            </div>
+
+            <div>
+                <label for="semester">Semester:</label>
+                <br>
+                <select id="semester" name="semester">
+                    <option value="fall">Fall</option>
+                    <option value="spring">Spring</option>
+                </select>
+            </div>
+
+            <div>
+                <strong>Attendance:</strong>
+                <br>
+                <input type="radio" id="virtual" name="attendance" value="virtual">
+                <label for="virtual">Virtual attendance</label>
+                <br>
+                <input type="radio" id="physical" name="attendance" value="physical">
+                <label for="physical">Physical attendance</label>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
     <footer>
         <ul>
             <li>
